@@ -30,7 +30,7 @@ void Q27();
 void Q28();
 void Q29();
 void Q30();
-void Q31();
+// void Q31();
 
 int main()
 {
@@ -65,7 +65,7 @@ int main()
     // Q28();
     // Q29();
     // Q30();
-    Q31();
+    
 
     return 0;
 }
@@ -661,21 +661,21 @@ void Q30()
     }
 }
 
-void Q31() {
+// void Q31() {
 
-    int n;
-    scanf("%d", &n);
+//     int n;
+//     scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++) {
+//     for (int i = 1; i <= n; i++) {
 
-        if (i == 1 || i == n) {
+//         if (i == 1 || i == n) {
 
-            for (int j = 1; j <= n; j++) {
-                printf("*");
-            }
+//             for (int j = 1; j <= n; j++) {
+//                 printf("*");
+//             }
             
-        }
-        printf("\n");
-    }
+//         }
+//         printf("\n");
+//     }
 
-}
+// }
