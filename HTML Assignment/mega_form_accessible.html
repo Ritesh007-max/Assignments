@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mega form</title>
+</head>
+
+<body>
+    <h1>Codinggita Mega Form</h1>
+
+    <section id="Personal Information">
+        <h2>Personal Information</h2>
+
+        <form action="#" method="post">
+            <br><br>
+            <label for="name">Full Name</label>
+            <input type="text" required placeholder="Enter your full name" aria-label="Full Name">
+            <br><br>
+            <label for="email">Email Address</label>
+            <input type="email" required placeholder="Enter your Email" aria-label="Email">
+            <br><br>
+            <label for="phone">Phone Number</label>
+            <input type="number" required placeholder="Enter your Phone Number" min=6000000000, max=9999999999>
+
+            <br><br>
+            <label for="date">Enter DOB</label>
+            <input type="date" required>
+            <br><br>
+            <label for="Gender">Enter Gender</label>
+            <input type="radio" required>Male
+            <input type="radio" required>Female
+            <input type="radio" required>Other
+            <br><br>
+            <label for="upload">Upload Photo</label>
+            <input type="file" required>
+            <br><br>
+            <label for="nationality">Nationality</label>
+            <select>
+                <option>Indian</option>
+                <option>NRI</option>
+                <option>Other</option>
+            </select>
+            <br><br>
+        </form>
+    </section>
+
+    <section id="Academic Information">
+        <h2>Academic Information</h2>
+
+        <form action="#" method="post">
+            <br><br>
+            <label for="Qualification">Highest Qualification</label>
+            <select>
+                <option>10th</option>
+                <option>12th</option>
+                <option>Graduate</option>
+                <option>Post Graduate</option>
+            </select>
+            <br><br>
+            <label for="Stream">Stream</label>
+            <select>
+                <option>Science</option>
+                <option>Commerce</option>
+                <option>Arts</option>
+                <option>Other</option>
+            </select>
+            <br><br>
+            <label for="CGPA">CGPA</label>
+            <input type="number" required min=0, max=10 step=0.01 placeholder="Enter your CGPA">
+            <br><br>
+            <label for="passing year">Year of Passing</label>
+            <input type="number" required min=1990, max=2024 placeholder="Enter your Year of Passing">
+            <br><br>
+            <fieldset>
+                <legend>Subjects Studied</legend>
+
+                <input type="checkbox" required>Maths<br>
+                <input type="checkbox" required>Science<br>
+                <input type="checkbox" required>Social Studies<br>
+                <input type="checkbox" required>Commerce<br>
+                <input type="checkbox" required>Arts<br>
+                <input type="checkbox" required>Other<br>
+            </fieldset>
+            <br><br>
+            <label for="upload">Upload Certificates</label>
+            <input type="file" required multiple>
+            <br><br>
+            <label for="course">Select your course</label>
+            <select>
+                <option>MERN Stack</option>
+                <option>DSA</option>
+                <option>Web Development</option>
+                <option>AI/ML</option>
+                <option>Cloud Computing</option>
+            </select>
+            <br><br>
+            <fieldset>
+                <legend>Admission Category</legend>
+
+                <input type="radio" required>General<br>
+                <input type="radio" required>OBC<br>
+                <input type="radio" required>SC<br>
+                <input type="radio" required>ST<br>
+                <input type="radio" required>EWS<br>
+
+            </fieldset>
+            <br><br>
+        </form>
+    </section>
+
+    <section>
+        <h2>Internet Usage & Skills Survey</h2>
+
+        <fieldset>
+            <legend>Do you have Internet Access?</legend>
+            <label for="internetYes">
+                <input type="radio" id="internetYes" name="internetAccess" value="Yes" tabindex="1" required>
+                Yes
+            </label>
+            <label for="internetNo">
+                <input type="radio" id="internetNo" name="internetAccess" value="No" tabindex="2">
+                No
+            </label>
+        </fieldset> <br><br>
+
+        <fieldset>
+            <legend>Devices Used Daily</legend>
+            <label for="deviceLaptop">
+                <input type="checkbox" id="deviceLaptop" name="devices[]" value="Laptop" tabindex="3">
+                Laptop
+            </label>
+            <label for="deviceMobile">
+                <input type="checkbox" id="deviceMobile" name="devices[]" value="Mobile" tabindex="4">
+                Mobile
+            </label>
+            <label for="deviceTablet">
+                <input type="checkbox" id="deviceTablet" name="devices[]" value="Tablet" tabindex="5">
+                Tablet
+            </label>
+            <label for="deviceDesktop">
+                <input type="checkbox" id="deviceDesktop" name="devices[]" value="Desktop" tabindex="6">
+                Desktop
+            </label>
+        </fieldset> <br><br>
+
+        <label for="dailyUsage">Average Daily Usage</label>
+        <select id="dailyUsage" name="dailyUsage" tabindex="7">
+            <option value="1 hour">&lt;1 hour</option>
+            <option value="1-3 hours">1-3 hours</option>
+            <option value="3-6 hours">3-6 hours</option>
+            <option value="6+ hours">6+ hours</option>
+        </select> <br><br>
+
+        <label for="studyTime">Preferred Study Time</label>
+        <input type="time" id="studyTime" name="studyTime" tabindex="8"> <br><br>
+
+        <label for="dataUsage">Weekly Data Usage (GB)</label>
+        <input type="range" id="dataUsage" name="dataUsage" min="1" max="100" tabindex="9"
+            aria-label="Drag to select GB usage"> <br><br>
+
+        <label for="socialPlatform">Favorite Social Platform</label>
+        <input type="text" id="socialPlatform" name="socialPlatform" list="platforms" tabindex="10">
+        <datalist id="platforms">
+            <option value="YouTube">
+            <option value="Instagram">
+            <option value="LinkedIn">
+            <option value="Discord">
+            <option value="GitHub">
+            <option value="Twitter">
+        </datalist> <br><br>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skillHTML"><input type="checkbox" id="skillHTML" name="skills[]" value="HTML" tabindex="11">
+                HTML</label>
+            <label for="skillCSS"><input type="checkbox" id="skillCSS" name="skills[]" value="CSS" tabindex="12">
+                CSS</label>
+            <label for="skillJS"><input type="checkbox" id="skillJS" name="skills[]" value="JS" tabindex="13">
+                JS</label>
+            <label for="skillReact"><input type="checkbox" id="skillReact" name="skills[]" value="React" tabindex="14">
+                React</label>
+            <label for="skillNode"><input type="checkbox" id="skillNode" name="skills[]" value="Node.js" tabindex="15">
+                Node.js</label>
+            <label for="skillMongo"><input type="checkbox" id="skillMongo" name="skills[]" value="MongoDB"
+                    tabindex="16"> MongoDB</label>
+            <label for="skillGit"><input type="checkbox" id="skillGit" name="skills[]" value="Git" tabindex="17">
+                Git</label>
+            <label for="skillOthers"><input type="checkbox" id="skillOthers" name="skills[]" value="Others"
+                    tabindex="18"> Others</label>
+        </fieldset> <br>
+
+        <label for="speedScreenshot">Upload Internet Speed Test Screenshot:</label>
+        <input type="file" id="speedScreenshot" name="speedScreenshot" accept="image/*" tabindex="19"> <br><br>
+
+        <label for="favColor">Pick your favorite color</label>
+        <input type="color" id="favColor" name="favColor" tabindex="20"> <br><br>
+
+        <label for="internetSatisfaction">How satisfied are you with your internet speed?</label>
+        <input type="range" id="internetSatisfaction" name="internetSatisfaction" min="1" max="10" tabindex="21">
+    </section>
+
+    <section>
+        <h2>Declaration & Final Submission</h2>
+
+        <label for="whyJoin" aria-label="Why do you want to join CodingGita?">Why do you want to join
+            CodingGita?</label>
+        <textarea id="whyJoin" name="whyJoin" required tabindex="22"></textarea> <br><br>
+
+        <label for="internetHelp">How has the Internet helped your education?</label>
+        <textarea id="internetHelp" name="internetHelp" tabindex="23"></textarea> <br><br>
+
+        <fieldset>
+            <legend>Would you recommend CodingGita to friends?</legend>
+            <label for="recommendYes"><input type="radio" id="recommendYes" name="recommend" value="Yes" tabindex="24">
+                Yes</label>
+            <label for="recommendNo"><input type="radio" id="recommendNo" name="recommend" value="No" tabindex="25">
+                No</label>
+        </fieldset> <br>
+
+        <label for="declaration">
+            <input type="checkbox" id="declaration" name="declaration" required tabindex="26">
+            “I hereby declare that the information provided above is true to the best of my knowledge.”
+        </label> <br><br>
+
+        <label for="signature">Upload Signature (JPG/PNG)</label>
+        <input type="file" id="signature" name="signature" accept=".jpg,.png" tabindex="27"> <br><br>
+
+        <label for="submissionDate">Date of Submission</label>
+        <input type="date" id="submissionDate" name="submissionDate" tabindex="28" value="2025-09-09"> <br><br>
+
+        <button type="submit" aria-label="Submit your application" tabindex="29">Submit Application</button>
+        <button type="reset" tabindex="30">Clear Form</button>
+    </section>
+</body>
+
+</html>
