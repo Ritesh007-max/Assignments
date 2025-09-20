@@ -47,7 +47,7 @@ int main()
     // Q10();
     // Q11();
     // Q12();
-    // Q13();
+    Q13();
     // Q14();
     // Q15();
     // Q16();
@@ -61,7 +61,7 @@ int main()
     // Q24();
     // Q25();
     // Q26();
-    Q27();
+    // Q27();
     // Q28();
     // Q29();
     // Q30();
@@ -530,11 +530,14 @@ void Q25()
     for (int i = 1; i <= n; i++)
     {
 
+        for (int j = n - i; j > 0; j--)
+        {
+            printf(" ");
+        }
         for (int k = 1; k <= i; k++)
         {
             printf("%c", ('A'+ k - 1));
         }
-
         for (int l = i - 1; l >= 1; l--)
         {
             printf("%c", ('A'+ l - 1));
@@ -636,30 +639,42 @@ void Q30()
     int n;
     scanf("%d", &n);
 
-    for (int i = 1; i <= n - 1; i++)
-    {
+    for (int i = 1; i <= n; i++) {
 
         for (int j = n - i; j > 0; j--)
         {
             printf(" ");
         }
-        for (int k = 0; k < 2 * i - 1; k++)
+        for (int k = 1; k <= i; k++)
         {
-            printf("%c", ('A'+k));
+            printf("%c", ('A'+ k - 1));
         }
-        printf("\n");
+        for (int l = i - 1; l >= 1; l--)
+        {
+            printf("%c", ('A'+ l - 1));
+        }
+    printf("\n");
     }
 
-    for (int i = 0; i <= n; i++) {
-
-        for (int k = 0; k < i; k++) {
+    for (int i = n - 1; i >= 1; i--) {
+        
+        for (int j = n - i; j > 0; j--)
+        {
             printf(" ");
         }
-        for (int j = 0; j <= 2*(n - i) - 2; j++) {
-            printf("%c", ('A'+j));
+        for (int k = 1; k <= i; k++)
+        {
+            printf("%c", ('A'+ k - 1));
         }
-        printf("\n");
+        for (int l = i - 1; l >= 1; l--)
+        {
+            printf("%c", ('A'+ l - 1));
+        }
+    printf("\n");
     }
+
+    
+
 }
 
 void Q31() {
