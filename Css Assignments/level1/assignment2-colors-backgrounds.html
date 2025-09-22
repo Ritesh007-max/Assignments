@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Assignment 2 — Colors & Backgrounds</title>
+
+  <!-- Google Font (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Student CSS (start with an empty file) -->
+  <link rel="stylesheet" href="assignment2-colors-backgrounds.css">
+</head>
+<body>
+  <header id="site-title">
+    <h1>Colors & Backgrounds Practice</h1>
+    <p class="subtitle">Assignment 2 — implement colors, gradients and background images using CSS</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Solid Color Card</h2>
+      <!-- TODO: style .card.solid with a solid background color -->
+      <div class="card solid">
+        <h3>Solid Color</h3>
+        <p>Use a solid background color here. Make text readable and add padding.</p>
+        <a href="http://codinggita.com/" class="cta">Learn more</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Linear Gradient Card</h2>
+      <!-- TODO: style .card.linear with a linear-gradient background -->
+      <div class="card linear">
+        <h3>Linear Gradient</h3>
+        <p>Create a linear gradient with at least two color stops and some padding.</p>
+        <a href="#" class="cta">Explore</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Radial Gradient Card</h2>
+      <!-- TODO: style .card.radial with a radial-gradient background -->
+      <div class="card radial">
+        <h3>Radial Gradient</h3>
+        <p>Use a radial gradient and ensure the text stays readable (use overlay if needed).</p>
+        <a href="#" class="cta">Try</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Background Image Demo</h2>
+      <!-- TODO: style .bg-demo to use a background image from http://codinggita.com/ (placeholder) -->
+      <div class="bg-demo">
+        <h3>Background Image</h3>
+        <p>Add a background image (use the sample image URL below) and apply repeat-x, position and size rules.</p>
+        <p class="note">Sample image</p>
+      </div>
+
+      <div class="bg-compare">
+        <!-- TODO: create two boxes side-by-side (or stacked on mobile) to compare background-size: cover vs contain -->
+        <div class="compare cover">
+          <h4>cover</h4>
+        </div>
+        <div class="compare contain">
+          <h4>contain</h4>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Parallax / Fixed Attachment Demo</h2>
+      <!-- TODO: style .parallax to use background-attachment: fixed on larger screens; explain mobile behavior in README -->
+      <div class="parallax">
+        <h3>Fixed background (parallax demo)</h3>
+        <p>On some browsers this creates a parallax effect. Note: behavior differs on mobile.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Assignment 2 — Students must write all styles inside <strong>assignment2-colors-backgrounds.css</strong></small>
+  </footer>
+</body>
+</html>

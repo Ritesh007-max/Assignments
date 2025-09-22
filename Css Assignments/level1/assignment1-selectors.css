@@ -1,0 +1,25 @@
+p {
+    font-size: medium;
+    line-height: 10px;
+}
+
+#site-title {
+    background: rgb(241, 241, 185);
+    padding: 5px;
+}
+
+.muted {
+    color:gray;
+}
+
+.highlight {
+    border: 1px solid black;
+}
+
+.highlight-text {
+background-color: lightblue;
+}
+
+#override {
+    background-color: yellow;
+}

@@ -1,0 +1,38 @@
+body { 
+    font-family: Roboto, sans-serif; 
+    background: bisque; 
+    color: black; 
+}
+
+.subtitle {
+    font-size: small;
+    font-weight: light;
+}
+
+.note {
+    font-size: small; 
+    color: gray;
+}
+
+.primary-nav {
+    padding: 1rem;
+    background-color: rgb(241, 205, 158);
+}
+
+.nav-list {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    padding-left: 0rem;
+    align-items: center;
+}
+
+.nav-link:hover, .sample-link:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    color: red;
+    text-decoration: none;
+}

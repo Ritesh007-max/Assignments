@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: rgb(59, 63, 59);
+    height: auto;
+    width: 350px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 5px;
+    font-size: 40px;
+}
+
+.result {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    font-size: 70px;
+}
+
+.b1, .b2, .b3, .b4, 
+.b5, .b6, .b7, .b8, 
+.b9, .b10, .b11, .b12, 
+.b13, .b14, .b15, .b16, 
+.b17, .b18, .b19 {
+  background-color: #181616;
+  margin: 5px;
+  padding: 5px;
+  height: 50px;
+  width: 60px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.b4, .b8, .b12, .b16, .b19 {
+    background-color: rgb(255, 102, 0);
+}
+
+.b1, .b2, .b3 {
+    background-color: rgb(94, 97, 97);
+}
+
+.b17 {
+    width: 130px;
+    border-radius: 20%;
+}

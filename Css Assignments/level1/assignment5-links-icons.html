@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Assignment 5 — Links & Icons</title>
+
+  <!-- Google Font (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Student CSS (start empty) -->
+  <link rel="stylesheet" href="assignment5-links-icons.css">
+</head>
+<body>
+  <header id="site-title">
+    <h1>Navigation — Links & Icons Practice</h1>
+    <p class="subtitle">Assignment 5 — style link states and build a responsive nav</p>
+  </header>
+
+  <nav aria-label="Primary Navigation" class="primary-nav">
+    <ul class="nav-list">
+      <!-- TODO: Style .nav-list, .nav-list li and .nav-link in CSS -->
+      <li><a href="http://codinggita.com/" class="nav-link">Home</a></li>
+      <li><a href="#" class="nav-link active">About</a></li>
+      <li><a href="#" class="nav-link">Services</a></li>
+      <li><a href="#" class="nav-link">Contact</a></li>
+    </ul>
+
+    <!-- TODO: Mobile toggle is optional; if implemented ensure keyboard accessibility -->
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Link states</h2>
+      <p class="note">There are sample links below. Style normal, hover, active, visited, and focus states in CSS.</p>
+
+      <p>
+        <a href="http://codinggita.com/" class="sample-link">Sample link (normal/hover)</a>
+        <a href="#" class="sample-link visited">Visited link (simulate by adding class)</a>
+        <a href="#" class="sample-link active">Active link (simulate by adding class)</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Icons before links</h2>
+      <p class="note">Add icons before links. If you cannot use an external icon library, use simple inline SVG or CSS pseudo-elements.</p>
+
+      <ul class="icon-list">
+        <li><a href="#" class="icon-link">Home</a></li>
+        <li><a href="#" class="icon-link">About</a></li>
+        <li><a href="#" class="icon-link">Services</a></li>
+        <li><a href="#" class="icon-link">Contact</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Accessibility check</h2>
+      <p class="note">Ensure keyboard users can tab through links and that :focus styles are visible (do not remove focus outlines).</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>Assignment 5 — Students must complete all CSS in <strong>assignment5-links-icons.css</strong></small>
+  </footer>
+</body>
+</html>

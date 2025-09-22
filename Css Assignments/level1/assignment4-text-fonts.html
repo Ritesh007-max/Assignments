@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Assignment 4 — Text & Fonts</title>
+
+  <!-- Google Font (students may optionally import in CSS instead) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Student CSS (start empty) -->
+  <link rel="stylesheet" href="assignment4-text-fonts.css">
+</head>
+<body>
+  <header id="site-title">
+    <h1>Typography Practice — Text & Fonts</h1>
+    <p class="subtitle">Assignment 4 — apply fonts, text transformations, pseudo-elements and spacing</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Font & Base Paragraph</h2>
+      <!-- TODO: Style body font-family and all paragraphs -->
+      <p class="lead">This paragraph is the main body text. Style all &lt;p&gt; tags to have readable font-size and line-height.</p>
+      <p class="muted small-note">This is muted helper text — style using a class selector.</p>
+    </section>
+
+    <section>
+      <h2>Google Font Heading</h2>
+      <!-- TODO: Import and use a Google font for the main heading (students choose a font) -->
+      <h2 class="google-heading">Use a Google Font for this heading</h2>
+      <p>Explain (in a CSS comment) why you chose this font and provide a fallback stack.</p>
+    </section>
+
+    <section>
+      <h2>Pseudo-elements</h2>
+      <!-- TODO: Use ::first-line and ::first-letter on the paragraph below -->
+      <p class="fancy">First line and first letter of this paragraph should have special styles using pseudo-elements. Make the first letter larger and the first line bolder.</p>
+    </section>
+
+    <section>
+      <h2>Transformations & Spacing</h2>
+      <!-- TODO: Use text-transform, letter-spacing and word-wrap examples -->
+      <p class="subtitle-uppercase">this subtitle should be uppercase with letter spacing.</p>
+      <p class="wrap-example">LongWordWithoutSpacesThatMightBreakLayout should be handled using word-wrap or hyphens so it doesn't overflow on small screens.</p>
+    </section>
+
+    <section>
+      <h2>Text Shadow & Readability</h2>
+      <!-- TODO: Apply text-shadow to heading and ensure contrast remains accessible -->
+      <h3 class="shadow-heading">Heading with text-shadow</h3>
+      <p class="shadow-note">Use text-shadow sparingly; make sure contrast and readability are not compromised.</p>
+    </section>
+
+    <section>
+      <h2>Alignment Examples</h2>
+      <!-- TODO: Show left, center and justified text alignment examples -->
+      <p class="align-left">This paragraph should be left-aligned (default).</p>
+      <p class="align-center">This paragraph should be center-aligned.</p>
+      <p class="align-justify">This paragraph should be justified — use it for long readable text blocks.</p>
+    </section>
+
+    <section>
+      <h2>Font-size Scale (Bonus)</h2>
+      <p class="scale-note">(Optional) Create a small typographic scale using CSS variables and apply to headings and paragraphs.</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>Assignment 4 — complete all CSS inside <strong>assignment4-text-fonts.css</strong></small>
+  </footer>
+</body>
+</html>

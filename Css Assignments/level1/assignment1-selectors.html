@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Assignment 1 — CSS Selectors</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assignment1-selectors.css">
+  
+</head>
+
+<body>
+
+
+  <header id="site-title">
+    <h1 id="brand">CodingGita — CSS Selectors Lab</h1>
+    <h2 class="subtitle">Assignment 1: Practice with different selectors</h2>
+  </header>
+
+
+  <nav>
+    <ul>
+      <li><a href="http://codinggita.com/" class="nav-link">Home</a></li>
+      <li><a href="#" class="nav-link active">Selectors</a></li>
+      <li><a href="#" class="nav-link">Resources</a></li>
+      <li><a href="#" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Overview</h2>
+      <p class="lead">This page is made to practice different CSS selectors.</p>
+      <p class="muted">This text should look gray or lighter.</p>
+    </section>
+
+    <section>
+      <h3>Class Selector</h3>
+      <p class="highlight">This paragraph is highlighted using a class.</p>
+    </section>
+
+    <section>
+      <h3>Specificity Example</h3>
+      <p class="highlight-text">This paragraph uses the highlight-text class.</p>
+      <p id="override" class="highlight-text">This one uses the same class, but also an ID — ID should win.</p>
+    </section>
+
+    <section>
+      <h3>Descendant & Child Selector</h3>
+      <div class="outer">
+        <h4>Section heading (style me using child selector)</h4>
+        <p>Paragraph inside a section.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Adjacent Sibling Selector</h3>
+      <h4>Heading before paragraph</h4>
+      <p>This paragraph should look different since it comes right after h4.</p>
+    </section>
+
+    <section>
+      <h3>Attribute Selector</h3>
+      <img src="http://codinggita.com/wp-content/uploads/placeholder-400x200.png" alt="Image with alt">
+      <img src="http://codinggita.com/wp-content/uploads/placeholder-400x200.png">
+      <img src="http://codinggita.com/wp-content/uploads/placeholder-400x200.png" alt="Another image with alt">
+    </section>
+
+    <section>
+      <h3>nth-child Selector</h3>
+      <ul class="striped-list">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <small>Assignment 1 — Students must complete all CSS instructions inside
+      <strong>assignment1-selectors.css</strong></small>
+  </footer>
+</body>
+
+</html>

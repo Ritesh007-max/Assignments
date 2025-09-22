@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+/* Global selector selects all elemnts in the HTML file and alpplies the given styles to them */
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #d4d4d4;
+    color: #222;
+
+}
+
+.note .subtitle {
+    color: #7e7d7d;
+}
+
+.box {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: border-color 1 ease;
+
+}
+
+.box:hover {
+    border-color: rgb(175, 170, 170);
+}
+ 
+.box1 {
+    border: 3px solid #1e88e5;
+    padding: 12px;
+}
+
+.box2 {
+    border: 2px dotted #4caf50;
+    padding: 20px;
+}
+
+.box3 {
+    border: 2px dashed #f57c00;
+    border-radius: 12px;
+    margin: 8px 0 24px 12px;
+}
+
+.center-auto {
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.center-flex-wrapper {
+    display:flex; 
+    justify-content:center;
+}
+
+.center-flex {
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+    /* With border box */
+
+.explain-box {
+    box-sizing: border-box;
+    height: 500px;
+    padding:50px ;
+    width: 100%;
+    background-color: #4caf50;
+}
+
+.with-content {
+    background-color: #f57c00;
+    height: 400px;
+    width: 90%;
+}
+
+    /* With Content Box */
+
+/* .explain-box {
+    box-sizing: content-box;
+    height: 500px;
+    padding:50px ;
+    width: 100%;
+    background-color: #4caf50;
+}
+
+.with-content {
+    background-color: #f57c00;
+    height: 400px;
+    width: 90%;
+} */
+
+/* Outline occurs when a element is beign focused by the user it appears outside border */
+
+.outline-button {
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.outline-button:focus{
+    padding: 10px;
+    outline: 3px solid rgba(255, 0, 0, 0.25);
+}
+
+.box:hover { 
+    border-color: #333; transform: translateY(-4px);
+    transition: border-color .18s ease, transform .14s ease; 
+}
+
+.grid-demo {
+    display: flexbox;
+}
+
+.grid-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding: 5px;
+    border: 1px solid red;
+}

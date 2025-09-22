@@ -1,0 +1,69 @@
+/* The chosen font is imported from google fonts whixh has fonts compatable with most bowsers */
+.google-heading {
+    font-family: url(https://fonts.googleapis.com/css2?family=timesTimesNewRoman:ital,wght@0,100..900;1,100..900&display=swap), Arial, sans-serif;
+}
+
+body {
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+}
+
+p { 
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.muted {
+    color: #6b6b6b;
+    font-size: 0.9rem;
+}
+
+.lead {
+    font-size: 1.05rem;
+    font-weight: medium;
+    font-size:var(--type-base);
+}
+
+.subtitle .small-note {
+    font-size: 0.5rem;
+    font-weight: light;
+}
+
+.subtitle-uppercase {
+    text-transform: uppercase; 
+    letter-spacing: 1.5px; 
+    font-weight:500;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+/* Always choose shodow parameters wisely to keep the text liable */
+
+.shadow-heading {
+    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+/* This alignment is default  */
+
+/* .align-left {
+
+} */
+
+/* This alignment is used when user need's has to focus on some content etc */
+
+.align-center {
+    text-align: center;
+}
+
+/* This alignment should be justified use it for long readable text blocks. */
+
+.align-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+:root {
+  --type-base: 1rem;
+  --type-lg: 1.25rem;
+  --type-xl: 1.5rem;
+}

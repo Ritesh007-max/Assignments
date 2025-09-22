@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Assignment 3 — Box Model & Borders</title>
+
+  <!-- Google Font (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Student CSS file (start empty) -->
+  <link rel="stylesheet" href="assignment3-boxmodel-borders.css">
+</head>
+<body>
+  <header id="site-title">
+    <h1>Box Model & Borders Practice</h1>
+    <p class="subtitle">Assignment 3 — margins, padding, borders, box-sizing and centering</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Boxes Demo</h2>
+      <p class="note">Create three boxes below with different border styles, padding and margin.</p>
+
+      <!-- TODO: Style .box1, .box2, .box3 in CSS with different borders, padding and margins -->
+      <div class="box-container">
+        <div class="box box1">
+          <h3>Box 1 — Solid border</h3>
+          <p>Use a solid border and moderate padding.</p>
+        </div>
+
+        <div class="box box2">
+          <h3>Box 2 — Dotted border</h3>
+          <p>Use a dotted border and larger padding.</p>
+        </div>
+
+        <div class="box box3">
+          <h3>Box 3 — Dashed border & rounded corners</h3>
+          <p>Use a dashed border, rounded corners and different margin values.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Centering Demo</h2>
+      <p class="note">Implement two methods to center an element horizontally:</p>
+
+      <!-- TODO: Center .center-auto using margin: 0 auto (requires width) -->
+      <div class="center-demo">
+        <div class="center-auto">
+          <p>Centered using <code>margin: 0 auto;</code></p>
+        </div>
+
+        <!-- TODO: Center .center-flex using flexbox on parent (.center-demo) -->
+        <div class="center-flex-wrapper">
+          <div class="center-flex">
+            <p>Centered using Flexbox</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Box-sizing & Outline</h2>
+      <p class="note">Show why <code>box-sizing: border-box;</code> helps with predictable sizing.</p>
+
+      <!-- TODO: Style .explain-box and show outline demo .outline-demo -->
+      <div class="explain-box">
+        <div class="with-content">
+          <p>Default box model (content-box) vs border-box — add comments in README or CSS.</p>
+        </div>
+      </div>
+
+      <div class="outline-demo">
+        <h3>Outline vs Border</h3>
+        <p class="note">Apply an <code>outline</code> to the element below to show it doesn't affect layout.</p>
+        <button class="outline-button">Focus me (or inspect)</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Hover & Transition</h2>
+      <p class="note">Add a hover effect for boxes that changes border color smoothly.</p>
+
+      <!-- TODO: Add :hover transition for .box elements in CSS -->
+      <div class="box-hover-demo">
+        <div class="box box-hover-1"><p>Hover me</p></div>
+        <div class="box box-hover-2"><p>Hover me</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Optional: Responsive Grid</h2>
+      <p class="note">(Bonus) Create a grid of boxes that wraps on small screens using Flexbox or Grid.</p>
+
+      <!-- TODO: Implement responsive wrapping for .grid-demo (optional for bonus) -->
+      <div class="grid-demo">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Assignment 3 — Students must complete all CSS in <strong>assignment3-boxmodel-borders.css</strong></small>
+  </footer>
+</body>
+</html>

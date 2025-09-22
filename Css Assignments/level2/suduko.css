@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.Structure {
+    border: 2px solid black;
+    height: 309px;
+    width: 309px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.A, .B, .C, .D, .E, .F, .G, .H, .I {
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.cell {
+    border: 0.2px solid black;
+    height: 31.85px;
+    width: 31.85px;
+    text-align: center;
+    line-height: 31.85px; 
+    font-size: 25px;
+}
+
+.box {
+    background-color: rgb(199, 228, 195);
+}
+
