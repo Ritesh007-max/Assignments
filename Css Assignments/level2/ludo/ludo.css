@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 450px;
+    width: 455px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.red {
+    box-sizing: border-box;
+    height: 180px;
+    width: 180px;
+    border: 20px solid red;
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: center;      
+    align-items: center;  
+}
+
+.green {
+    box-sizing: border-box;
+    height: 180px;
+    width: 180px;
+    border: 20px solid rgb(34, 160, 18);
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: center;      
+    align-items: center;  
+}
+
+.blue {
+    box-sizing: border-box;
+    height: 180px;
+    width: 180px;
+    border: 20px solid rgb(27, 37, 167);
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: center;      
+    align-items: center;
+}
+
+.yellow {
+    box-sizing: border-box;
+    height: 180px;
+    width: 180px;
+    border: 20px solid rgb(229, 243, 40);
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: center;      
+    align-items: center;
+}
+
+.red p, .green p, .blue p, .yellow p {
+    width: 40%;                
+    text-align: center;
+    font-size: 40px;
+}
+
+.cell {
+    height: 27px;
+    width: 27px;
+    border: 2px solid black;
+    justify-self: flex-start;
+}
+
+.path1, .path4 {
+    display: flex;
+    width: 90px;
+    height: 60px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+
+.path2, .path3 {
+    display: flex;
+    width: 162px;
+    height: 90px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+.Final {
+    height: 90px;
+    width: 110px;
+}
+
+.G {
+    background-color: rgb(6, 173, 6);
+}
+
+.Y {
+    background-color: yellow;
+}
+
+.B {
+    background-color: rgb(57, 57, 206);
+}
+
+.R {
+    background-color: red;
+}
+
+.Final {
+    border-top: 60px solid green;
+    border-left: 60px solid red;
+    border-right: 60px solid yellow;
+    border-bottom: 60px solid blue;
+}

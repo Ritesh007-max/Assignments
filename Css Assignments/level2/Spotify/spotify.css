@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    background-color: black;
+    color: white;
+    width: 13vw;
+}
+
+aside img {
+    height: 10vmin;
+    padding: 3vh;
+}
+
+.sec1 div, .sec2 div{
+    display: flex;
+    align-items: center;
+    gap: 8px;      
+}
+
+.sec3 p {
+    margin-top: 3vh;
+    padding-left: 2vh;
+}
+
+.sec4 img {
+    height: 5vh;
+    padding: 0;
+    padding-left: 5vh;
+}
+.sec4 p {
+    padding-top: 1vh;
+    padding-left: 3vh;
+}
+
+.Play {
+    background-color: rgb(43, 38, 38);
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.song {
+    width: 40vh;
+    margin: 2.5vh;
+}
+
+.DreamingOn {
+    width: 10vh;
+}
+
+.greenHeart {
+    width: 5vh;
+    height: 5vh;
+    margin-top: 8vh;
+    margin-left: -60vh;
+}
+
+.player {
+    width: 40vw;
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+.settings {
+    width: 15vw;
+    height: 5vh;
+    margin-top: 8vh;
+}

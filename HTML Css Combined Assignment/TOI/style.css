@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+aside{
+    width: 8vw;
+    height: 46vw;
+    /* border: 4px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+[alt = m1]{
+    width: 50vw;  
+}
+
+.img2{
+    margin-top: 24vw;
+}
+
+.bimg{    
+    width: 80vw;
+    height: 20vw;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    position: fixed;  
+}
+
+.main{
+    display: flex;
+}
+
+[alt = aside]{
+    width: 8vw;
+    position: fixed;
+    
+}
+
+.f3{
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+
+
+
+.midel{
+    /* border: 3px solid black; */
+    width: 80vw;
+    height: 100vw;
+    height: 200vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    
+
+}
+
+nav{
+    width: 80vw;
+    height: 20vw;
+    /* border: 5px solid red; */
+    margin-top: 20vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    position: static;
+    z-index: 1;
+    gap: 4vw;
+    padding-top: 1vw;
+
+}
+
+.r1{
+    width: 10vw;
+    height: 2vw;
+    border: .2vw solid red;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+.r1:hover{
+    width: 10vw;
+    height: 2vw;
+    border: .2vw solid red;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+.g1{
+    width: 10vw;
+    height: 2vw;
+    border: .2vw solid green;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+.g1:hover{
+    width: 10vw;
+    height: 2vw;
+    border: .2vw solid green;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+.q1{
+    width: 7vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: .2vw solid rgb(209, 204, 204);
+    border-radius: 1vw;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+.q1:hover{
+    width: 7vw;
+    height: 2vw;
+    border: .2vw solid red;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+
+.line{
+    display: flex;
+    gap: 0.5vw;
+    font-size: 1.2vw;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 1vw;
+    height: 1vw;
+    width: 12vw;
+
+}
+.line1{
+    display: flex;
+    gap: 0.5vw;
+    font-size: 1.2vw;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    height: 1vw;
+    width: 26.5vw;
+    color: gray;
+
+}
+
+select{
+    border-radius: 2vw;
+    padding-left: 0.4vw;
+}
+
+
+.title{
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+.tnav{
+    position: sticky;
+    width: 80vw;
+    height: 3vw;
+    /* border: 3px solid green; */
+    display: flex;
+    gap: .4vw;
+    margin-left: .3vw;
+}
+
+.data{
+    width: 80vw;
+    /* border: 2px solid red; */
+    height: 160vw;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.data{
+    display: flex;
+
+}
+
+.column{
+    width: 22vw;
+    height: 153vw;
+    /* border: 2px solid black; */
+    text-align: justify;
+    padding: 2vw;
+    font-size: 1vw;
+
+}
+
+.ok{
+     width: 20vw; 
+     border-radius: 2vw;
+     margin: 1vw;
+}
+.ok1{
+     width: 22vw; 
+     border-radius: 2vw;
+     margin-top: 2vw;
+     margin-bottom: 2vw;
+}
+.ok5{
+     width: 22vw; 
+     border-radius: 2vw;
+     
+}
+.ok3{
+     width: 12vw; 
+     border-radius: 2vw;
+     margin-top: 2vw;
+     margin-bottom: 2vw;
+}
+
+#l1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.red{
+    color: red;
+    font-weight: bold;
+}
