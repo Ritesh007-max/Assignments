@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-width: none;
 }
 
 .shipping {
@@ -12,6 +13,10 @@
   padding: 5px;
 }
 
+.current {
+  text-decoration: underline 3px solid orange;
+  color: rgb(255, 131, 22);
+}
 /* below this line is the search bar css */
 
 .search {
@@ -127,13 +132,14 @@
 /* below this line is the aside section css */
 
 aside {
-  width: 70%;
+  width: 85%;
   position: sticky;
   top: 0;
   left: 0;
   right: 0;
   background-color: white;
   overflow: auto;
+  border-right: 1px solid black;
 }
 
 .container {
@@ -232,6 +238,28 @@ input {
   flex-wrap: wrap;
   margin-left: 3rem;
   scrollbar-width: none;
+}
+
+.option {
+  background-color: #000;
+  color: white;
+  height: 3rem;
+  margin-bottom: 1rem;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.items:hover .option{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option:hover {
+  background-color: #383737;
 }
 
 /* below is footer css */
