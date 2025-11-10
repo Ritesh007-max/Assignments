@@ -1,15 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Archivo Narrow", sans-serif;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.current {
-  color: rgb(148, 5, 29);
+body {
+    background-color: azure;
 }
-
-/* below this line is the header css */
+/* below this line is the navbar css */
 
 .offer {
   background-color: rgb(43, 12, 12);
@@ -66,105 +64,22 @@
   border-radius: 1rem;
   padding: .3rem;
   margin-bottom: .5rem;
+
 }
 
 .responsiveNavBar {
   display: none;
 }
-/* below this line is the hero section css */
 
-.hero {
-  position: relative;
-  width: 100%;
-  height: 90vh; 
-  overflow: hidden;
-}
-
-.hero video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%, -50%);
-  object-fit: cover;
-  z-index: 0;
-}
-
-.hero .content {
-  position: relative;
-  z-index: 1;
-  color: white;
-  text-align: left;
-  top: 30%;
-  margin: 5rem;
-  line-height: 4rem;
-}
-
-.hero .content h1 {
-  line-height: 2rem;
-}
-
-.hero .content button {
-  padding: 1.5rem 3.5rem;
-  font-size: 1.5rem;
-}
-
-/* below this line is the Content css */
-
-.heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem;
-} 
-
-.comp img {
-  width: 200px;
-  border-radius: .6rem;
-}
-
-.comp p {
-  margin: .5rem 0rem;
-}
-
-.c4 img {
-  height: 200px;
-}
-
-.components {
-  display: flex;
-  justify-content: space-around;
-  overflow: auto;
-  scrollbar-width: none;
-  gap: 3rem;
-}
-
-.comps img{
-  width: 350px;
-  background-color: bisque;
-}
-
-.comps {
-  margin: 1rem 0rem;
-}
-
-.rating {
-  display: flex;
-  align-items: center;
-}
-
-.rating img {
-  width: 120px;
+.navLogo img {
+  margin: 1rem;
 }
 
 /* below this line is the star section css */
 
 .star {
   display: flex;
-  background-color: rgba(25, 40, 27, 0.943);
+  background-color: rgba(40, 37, 34, 0.943);
   color: white;
 }
 
@@ -174,96 +89,80 @@
 }
 
 .starText {
-  margin: 2rem;
-  margin-top: 20%;
+  margin: 15% 2rem;
   display: block;
   align-items: center;
   width: 43.5%;
 }
 
 .star2 {
-  background-color: bisque;
-  color: black;
+    background-color: rgb(161, 138, 18);
 }
 
-.star3 {
-  background-color: white;
-  color: black
+/* below this line is the sections css */
+
+.sections ul{
+    display: flex;
+    margin: 1.5rem;
+    gap: 1.5rem;
 }
 
-.star4 {
-  background-color: #7d7b7b;
+.sections ul li a{
+    color: grey;
 }
 
-.star5, .star6 {
-  background-color: #d8d3d3;
-  color: black;
-}
+/* below this line is the css of the product section */
 
-.star6 {
-  background-color: rgb(250, 242, 243);
-}
-
-/* below this line is the more section css */
-
-.more {
+.sort button {
   display: flex;
+  width: 12rem;
   justify-content: space-between;
-  background-color: black;
-  color: white;
-  height: 640px;
-  overflow: auto;
-  scrollbar-width: none;
-  overflow-y: hidden;
-}
-
-.moreText {
-  margin: 4rem;
-  position: relative;
-  top: 10%;
-}
-
-.moreText h1, .moreText p, .moreText a {
-  margin-top: 2rem;
-}
-
-.parts img {
-  width: 368px;
-  height: 288px;
-  margin: 2rem;
-  margin-left: 0rem;
-}
-
-.parts {
-  width: 60%;
-  position: relative;
-  top: 15%;  
-} 
-
-.anchor {
-  margin-top: 5rem;
-}
-
-/* below this line is the along section css */
-
-.head {
-  text-align: center;
-  margin: 3rem;
-}
-
-.img {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5rem;
-  gap: 2rem;
-  overflow: auto;
+  padding: .5rem;
+  margin: 1rem;
+  border-radius: .3rem;
   align-items: center;
-  scrollbar-width: none;
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
 }
 
-.img img {
-  width: 250px;
+.products {
+  display: flex;
+  margin: 1.5rem;
+  flex-wrap: wrap;
 }
+
+.product img {
+  width: 23rem;
+  background-color: rgb(226, 235, 242); 
+}
+
+.product > img {
+  height: 25rem; 
+}
+
+.info {
+  line-height: 1.5rem;
+  background-color: #fff;
+  width: 23rem;
+  margin-top: -.3rem;
+  padding: 1rem;
+  height: 9rem;
+}
+
+.rating img {
+  width: 120px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive */
+
+
+
 /* below this line is the footer css */
 
 .footer {
@@ -392,29 +291,6 @@
 
 /* below this line are the media queries */
 
-@media (max-width: 800px) {
-  .footer-container {
-    flex-direction: column;
-  }
-  .footer-columns {
-    flex-direction: column;
-  }
-  .footer-bottom {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .star {
-    display: block;
-  }
-
-  .star img {
-    width: 100%;
-    margin: 0;
-  }
-}
-
-
 @media (max-width: 1100px) {
 
   .navBar {
@@ -434,4 +310,14 @@
     margin: 1rem;
   }
 
+}
+
+@media (max-width: 900px) {
+  .name-fields {
+    flex-direction: column;
+  }
+
+  button {
+    margin: 1rem auto 0;
+  }
 }
