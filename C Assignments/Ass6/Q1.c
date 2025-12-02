@@ -1,77 +1,75 @@
 #include <stdio.h>
 
-struct Date {
-    int day;
-    int month;
-    int year;
-};
+// struct Date {
+//     int day;
+//     int month;
+//     int year;
+// };
 
-struct Employee {
-    int id;
-    char name[50];
-    struct Date jDate;
-};
-
-int main() {
-    struct Employee e;
-
-    printf("Enter Employee ID: ");
-    scanf("%d", &e.id);
-
-    printf("Enter Employee Name : ");
-    scanf("%s", e.name);
-
-    printf("Enter Joining Date: ");
-    scanf("%d", &e.jDate.day);
-     
-    printf("Enter Joining month: ");
-    scanf("%d",&e.jDate.month);
-      
-    printf("Enter Joining year: ");
-    scanf("%d",&e.jDate.year);
-        
-
- 
-    printf("%d \n", e.id);
-    printf("%s\n", e.name);
-    printf(" %d-%d-%d\n",e.jDate.day,e.jDate.month,e.jDate.year);
-
-    return 0;
-}
-// #include <stdio.h>
-
-// struct Student {
-//     int roll;
+// struct Employee {
+//     int id;
 //     char name[50];
-//     float marks;
+//     struct Date jDate;
 // };
 
 // int main() {
-//     struct Student s[5];
-//     int i;
+//     struct Employee e;
 
-//     for (i = 0; i < 5; i++) {
+//     printf("Enter Employee ID: ");
+//     scanf("%d", &e.id);
 
-//         printf("Roll No: ");
-//         scanf("%d", &s[i].roll);
+//     printf("Enter Employee Name : ");
+//     scanf("%s", e.name);
 
-//         printf("Name : ");
-//         scanf("%s", s[i].name);
+//     printf("Enter Joining Date: ");
+//     scanf("%d", &e.jDate.day);
+     
+//     printf("Enter Joining month: ");
+//     scanf("%d",&e.jDate.month);
+      
+//     printf("Enter Joining year: ");
+//     scanf("%d",&e.jDate.year);
+        
 
-//         printf("Marks: ");
-//         scanf("%f", &s[i].marks);
-//     }
-//     printf("students list is :- \n \n ");
-//     for (i = 0; i < 5; i++) {
-       
-//         printf("Roll No: %d\n", s[i].roll);
-//         printf("Name: %s\n", s[i].name);
-//         printf("Marks: %.2f\n", s[i].marks);
-//     }
+ 
+//     printf("%d \n", e.id);
+//     printf("%s\n", e.name);
+//     printf(" %d-%d-%d\n",e.jDate.day,e.jDate.month,e.jDate.year);
 
 //     return 0;
 // }
-// #include <stdio.h>
+
+struct Student {
+    int roll;
+    char name[50];
+    float marks;
+};
+
+int main() {
+    struct Student s[5];
+    int i;
+
+    for (i = 0; i < 5; i++) {
+
+        printf("Roll No: ");
+        scanf("%d", &s[i].roll);
+
+        printf("Name : ");
+        scanf("%s", s[i].name);
+
+        printf("Marks: ");
+        scanf("%f", &s[i].marks);
+    }
+    printf("students list is :- \n \n ");
+    for (i = 0; i < 5; i++) {
+       
+        printf("Roll No: %d\n", s[i].roll);
+        printf("Name: %s\n", s[i].name);
+        printf("Marks: %.2f\n", s[i].marks);
+    }
+
+    return 0;
+}
 
 // struct Book {
 //     char title[100];
