@@ -1,0 +1,17 @@
+@media(max-width: 600px) {
+    .text {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 900px) and (min-width: 600px) {
+    .text {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 900px) {
+    .text {
+        font-size: 24px;
+    }
+}

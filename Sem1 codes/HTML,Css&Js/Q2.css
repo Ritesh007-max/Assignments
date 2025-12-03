@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 97vh;
+}
+
+.box1, .box2, .box3 {
+    border: 1px solid black;
+    text-align: center;
+    height: auto;
+    width: 5vw;
+}
