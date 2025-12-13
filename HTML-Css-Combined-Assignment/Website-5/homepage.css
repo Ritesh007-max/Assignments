@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+
+body {
+  width: 80%;
+  background: linear-gradient(135deg, #0F0C30, #0a0631);
+  color: white;
+  margin: auto;
+}
+
+/* this is the header css */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.logoImg img {
+  width: 15rem;
+  margin-top: 1.5rem;
+}
+
+.navText ul {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.navText ul button {
+  padding: 1rem 1.5rem;
+  margin-top: -1rem;
+  border-radius: .5rem;
+
+}
+
+.ham {
+  display: none;
+}
+
+/* this is the content section css */
+
+.content,
+.content-reverse {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+
+.contentText {
+  width: 70%;
+}
+
+.contentText button {
+  padding: 1rem 2.5rem;
+  border-radius: .5rem;
+}
+
+.contentImg img {
+  width: 15rem;
+}
+
+.content-reverse {
+  flex-direction: row-reverse;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.centre-text {
+  text-align: center;
+}
+
+.brands img {
+  width: 15rem;
+  height: 5rem;
+
+}
+
+.brands {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 5rem;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.img-small img{
+  width: 35rem;
+}
+
+/* below this line is the rode map section  */
+
+.figure {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parts {
+  border-left: 1px dashed grey;
+  border-bottom: 1px dashed grey;
+  width: 33%;
+}
+
+.parts ul {
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.parts ul li {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.round1,
+.round2,
+.round3 {
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  left: -2rem;
+  top: .1rem;
+}
+
+.round1 {
+  background-color: #A3BF4A;
+}
+
+.round3 {
+  background-color: rgb(164, 5, 164);
+}
+
+.round2 {
+  background-color: #33C5FE;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  background-color: #A3BF4A;
+  position: relative;
+  left: -1rem;
+  top: -1rem;
+}
+
+.yr-text {
+  position: relative;
+  left: -1rem;
+}
+
+.updated {
+  text-align: center;
+}
+
+/* below this line is the vid part css */
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.art-img img {
+  width: 100%;
+}
+
+.art1 {
+  width: 45%;
+}
+
+.filters ul {
+  display: flex;
+  gap: 1.1rem;
+  color: rgb(0, 229, 255);
+}
+
+.read-more h3 {
+  background-image: linear-gradient(0deg, #9DBF54, #4DC4D4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.posts {
+  text-align: center;
+}
+
+.post {
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+}
+
+/* updated section  */
+
+.input input {
+  width: 25rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 1px solid rgb(133, 130, 130);
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input button {
+  background: linear-gradient(60deg, #D158A3, #4DC4D4);
+  height: 3rem;
+  color: white;
+  width: 7rem;
+  border-radius: .2rem;
+  border: none;
+
+}
+
+/* footer css  */
+
+footer {
+  width: calc(100vw - 15px);
+  background-color: #0A0731;
+  color: white;
+  padding: 60px 10%;
+  margin-left: -9rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 30px;
+}
+
+.footer-logo {
+  flex: 1 1 300px;
+}
+
+.footer-logo img {
+  width: 160px;
+  margin-bottom: 15px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin-top: 20px;
+}
+
+.footer-section h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  flex-wrap: wrap;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #888;
+}
+
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 13px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* Responsive layout */
+@media (max-width: 800px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-top: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-links a {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  
+  .input {
+    display: block;
+  }
+
+  .input button {
+    margin-top: .5rem;
+    width: 100%;
+  }
+
+  .art1 {
+    width: 100%;
+  }
+
+  .art1-text{
+    text-align: center;
+  }
+
+  .brands {
+    width: 100%;
+    gap: 1.5rem;
+  }
+
+  .brands img {
+    width: 5rem;
+    height: 2rem;
+  }
+
+  .content, .content-reverse {
+    display: block;
+  }
+
+  .contentText {
+    width: 100%;
+  }
+
+  .navText ul{
+    display: none;
+  }
+
+  .ham {
+    display: block;
+  }
+
+  .img-small img{
+    width: 25rem;
+  } 
+}

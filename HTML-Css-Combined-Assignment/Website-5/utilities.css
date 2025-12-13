@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    font-family: 'Geom';
+}
+
+.button-transition {
+    background: linear-gradient(60deg, #9DBF54, #4DC4D4);
+    color: white;
+}
+
+.margin-Btm {
+    margin-bottom: 1.5rem;
+}
+
+.margin-top {
+    margin-top: 2.5rem;
+}
+
+.margin-right {
+    margin-right: 1.5rem;
+}
+
+.margin-Left {
+    margin-left: 2rem;
+}
+
+.font-big {
+    font-size: 3rem;
+}
+
+.font-light {
+    opacity: 50%;
+    font-weight: 500;
+    word-spacing: .01rem;
+    letter-spacing: .1rem;
+    line-height: 1.5rem;
+}
+

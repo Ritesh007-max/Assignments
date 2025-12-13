@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homePage</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="ham">
+            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24">
+                <path fill="currentColor" fill-rule="evenodd"
+                    d="M20.75 7a.75.75 0 0 1-.75.75H4a.75.75 0 0 1 0-1.5h16a.75.75 0 0 1 .75.75m0 5a.75.75 0 0 1-.75.75H4a.75.75 0 0 1 0-1.5h16a.75.75 0 0 1 .75.75m0 5a.75.75 0 0 1-.75.75H4a.75.75 0 0 1 0-1.5h16a.75.75 0 0 1 .75.75"
+                    clip-rule="evenodd" />
+            </svg>
+            <p>Menu</p>
+        </div>
+
+        <div class="logo">
+            <img src="https://assets.inshorts.com/website_assets/images/logo_inshorts.png">
+        </div>
+
+        <div></div>
+    </header>
+
+    <main>
+        <div class="sponser">
+            <p>For the best experience use <b>inshorts</b> app on your smartphone</p>
+
+            <div class="sponserImg">
+                <img src="https://assets.inshorts.com/website_assets/images/appstore.png" alt="" class="img1">
+                <img src="https://assets.inshorts.com/website_assets/images/playstore.png" alt="" class="img2">
+            </div>
+
+        </div>
+
+        <div class="container" id="container"></div>
+
+        <div class="btn">
+            <button id="loadMore">load more</button>
+        </div>
+    </main>
+
+    <!-- ===== Inshorts-style footer ===== -->
+    <footer class="inshorts-footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <a class="logo" href="/" aria-label="Home">inshorts</a>
+                <p class="tag">Summarised news, quick and crisp.</p>
+            </div>
+
+            <nav class="footer-links" aria-label="Footer">
+                <div class="links-col">
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Careers</a>
+                </div>
+                <div class="links-col">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Advertise</a>
+                </div>
+                <div class="links-col">
+                    <a href="#">iOS App</a>
+                    <a href="#">Android App</a>
+                    <a href="#">RSS</a>
+                </div>
+            </nav>
+
+            <div class="footer-social" aria-hidden="false">
+                <a href="#" class="social" aria-label="Facebook">Fb</a>
+                <a href="#" class="social" aria-label="Twitter">Tw</a>
+                <a href="#" class="social" aria-label="Instagram">Ig</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <small>© <span id="year"></span> inshorts — All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script>
+        // keep year current
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>

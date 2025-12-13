@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo Narrow", sans-serif;  
+}
+
+.current {
+  color: rgb(148, 5, 29);
+}
+
+/* below this line is the header css */
+
+.offer {
+  background-color: rgb(43, 12, 12);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  padding: 1.2rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLeft {
+  margin-left: 1.5rem;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.navLeft img {
+  margin-right: 1rem;
+}
+
+.navLeft ul {
+  display: flex;
+  height: 5rem;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navRight svg{
+  margin: 0 .5rem 0 .1rem;
+}
+
+.navTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItems ul{
+  display: flex;
+  gap: 1.5rem;
+  margin-left: 3rem;
+}
+
+.navItems ul li {
+  background-color: rgb(245, 216, 221);
+  border-radius: 1rem;
+  padding: .3rem;
+  margin-bottom: .5rem;
+}
+
+.responsiveNavBar {
+  display: none;
+}
+/* below this line is the hero section css */
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 90vh; 
+  overflow: hidden;
+}
+
+.hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero .content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: left;
+  top: 30%;
+  margin: 5rem;
+  line-height: 4rem;
+}
+
+.hero .content h1 {
+  line-height: 2rem;
+}
+
+.hero .content button {
+  padding: 1.5rem 3.5rem;
+  font-size: 1.5rem;
+}
+
+/* below this line is the Content css */
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+} 
+
+.comp img {
+  width: 200px;
+  border-radius: .6rem;
+}
+
+.comp p {
+  margin: .5rem 0rem;
+}
+
+.c4 img {
+  height: 200px;
+}
+
+.components {
+  display: flex;
+  justify-content: space-around;
+  overflow: auto;
+  scrollbar-width: none;
+  gap: 3rem;
+}
+
+.comps img{
+  width: 350px;
+  background-color: bisque;
+}
+
+.comps {
+  margin: 1rem 0rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating img {
+  width: 120px;
+}
+
+/* below this line is the star section css */
+
+.star {
+  display: flex;
+  background-color: rgba(25, 40, 27, 0.943);
+  color: white;
+}
+
+.star img {
+  margin-left: 1.5rem;
+  width: 48%;
+}
+
+.starText {
+  margin: 2rem;
+  margin-top: 20%;
+  display: block;
+  align-items: center;
+  width: 43.5%;
+}
+
+.star2 {
+  background-color: bisque;
+  color: black;
+}
+
+.star3 {
+  background-color: white;
+  color: black
+}
+
+.star4 {
+  background-color: #7d7b7b;
+}
+
+.star5, .star6 {
+  background-color: #d8d3d3;
+  color: black;
+}
+
+.star6 {
+  background-color: rgb(250, 242, 243);
+}
+
+/* below this line is the more section css */
+
+.more {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 640px;
+  overflow: auto;
+  scrollbar-width: none;
+  overflow-y: hidden;
+}
+
+.moreText {
+  margin: 4rem;
+  position: relative;
+  top: 10%;
+}
+
+.moreText h1, .moreText p, .moreText a {
+  margin-top: 2rem;
+}
+
+.parts img {
+  width: 368px;
+  height: 288px;
+  margin: 2rem;
+  margin-left: 0rem;
+}
+
+.parts {
+  width: 60%;
+  position: relative;
+  top: 15%;  
+} 
+
+.anchor {
+  margin-top: 5rem;
+}
+
+/* below this line is the along section css */
+
+.head {
+  text-align: center;
+  margin: 3rem;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  gap: 2rem;
+  overflow: auto;
+  align-items: center;
+  scrollbar-width: none;
+}
+
+.img img {
+  width: 250px;
+}
+/* below this line is the footer css */
+
+.footer {
+  background-color: #2a2824;
+  padding: 60px 8%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.footer-left {
+  flex: 1 1 280px;
+}
+
+.logo {
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.socials i {
+  margin-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer-left p {
+  max-width: 320px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.terms-text {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+.terms-text a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.email-form {
+  margin-top: 15px;
+}
+
+.email-form input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.email-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.column h3 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: white;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.column li {
+  margin: 6px 0;
+}
+
+.column a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.column a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 50px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.footer-bottom .links a {
+  margin-right: 15px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-bottom .links a:hover {
+  color: white;
+}
+
+/* below this line are the media queries */
+
+@media (max-width: 800px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-columns {
+    flex-direction: column;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .star {
+    display: block;
+  }
+
+  .star img {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+
+@media (max-width: 1100px) {
+
+  .navBar {
+    display: none;
+  }
+
+  .responsiveNavBar {
+    display: block;
+  }
+
+  .navItems {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .navLogo {
+    margin: 1rem;
+  }
+
+}

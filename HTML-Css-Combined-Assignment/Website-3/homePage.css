@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Geom';
+}
+
+.shipping {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 30px;
+  padding: 5px;
+}
+
+img:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+}
+
+/* below this line is the search bar css */
+
+.search {
+  background-color: rgb(230, 230, 230);
+  width: 70%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  margin-right: 20px;
+  display: flex;
+  gap: 1rem;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.search input {
+  width: 90%;
+  height: 40px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+}
+
+.ham {
+  display: none;
+}
+
+.glass {
+  display: none;
+}
+
+/* below this line is the navbar css */
+
+.navBar ul {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  font-size: 1.3rem;
+}
+
+.hero {
+  background-position: top;
+  background-size: cover;
+  background-image: url(https://www.keychron.com/cdn/shop/files/Q1HE8K-banner-desktop.jpg?v=1765274817&width=1600);
+  height: 40rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  padding: 3rem;
+  line-height: 2rem;
+  color: white;
+}
+
+.section1 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px 0px 20px 0px;
+  z-index: 100;
+}
+
+/* below this line are the different categories css  */
+
+.categories {
+  margin: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* below this line is the .companies section */
+
+.companies ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies {
+  width: 80%;
+  margin: auto;
+}
+
+/* below this line is the showcase section */
+
+.showcase img {
+  width: 18%;
+  border-radius: 5%;
+}
+
+.showcase {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+/* below this line is the footer css */
+
+footer {
+  background-color: rgb(228, 234, 240);
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: Arial, sans-serif;
+}
+
+.parts {
+  flex: 1;
+  min-width: 200px;
+  margin: 1rem;
+}
+
+footer img {
+  width: 200px;
+}
+
+.part1 p {
+  max-width: 400px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.flag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.flag img {
+  width: 8%;
+  height: 1.5rem;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.parts h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.parts p {
+  font-size: 1rem;
+  margin: .3rem 0;
+}
+
+.part4A p {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.part4A input {
+  width: 90%;
+  padding: .5rem;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  background-color: white;
+  color: #000;
+}
+
+.part4B {
+  display: flex;
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.part4B img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.part4 hr {
+  border: none;
+  border-top: 1px solid #bbb;
+  margin: 2rem 0;
+}
+
+.part4 {
+  font-size: 1rem;
+}
+
+/* below this line are the media queries */
+
+@media (max-width: 800px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 40px;
+  }
+
+  .parts {
+    width: 100%;
+    margin: 10px 0;
+    border-top: 1px solid #ccc;
+    padding: 15px 0;
+  }
+
+  .flag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .flag img {
+    width: 28px;
+    height: 20px;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .parts h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+  .parts p {
+    display: none;
+  }
+
+
+  .part4A input {
+    width: 100%;
+  }
+
+  .part4 hr {
+    margin: 15px 0;
+  }
+
+  .navBar,
+  .search {
+    display: none;
+  }
+
+  .ham,
+  .glass {
+    display: block;
+  }
+}
