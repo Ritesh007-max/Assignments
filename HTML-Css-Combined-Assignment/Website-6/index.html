@@ -4,123 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>SuperRare Clone</title>
     <link rel="stylesheet" href="homepage.css">
-    <link rel="stylesheet" href="utilities.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="nav">
-            <div class="nav-left">
-                <img src="https://filebase.com/static/9f34b404bff61b26270b051bdac53445/803de/superrare.png" alt=""
-                    style="height: 2rem; width: 10rem;">
-            </div>
-
-            <div class="nav-middle">
-                <ul class="nav-items" style="list-style: none;">
-                    <li>Curation</li>
-                    <li>Marketplace</li>
-                    <li>Offline</li>
-                    <li>$RARE</li>
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <path fill="black" fill-rule="evenodd"
-                                d="M14.385 15.446a6.751 6.751 0 1 1 1.06-1.06l5.156 5.155a.75.75 0 1 1-1.06 1.06zM6.46 13.884a5.25 5.25 0 1 1 7.43-.005l-.005.005l-.005.004a5.25 5.25 0 0 1-7.42-.004"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="nav-right">
-                <div class="day-night">
-                    <div class="partA"></div>
-                    <div class="partB"></div>
-                </div>
-
-                <div class="wallet">
-                    <p>Connect Wallet</p>
-                </div>
-            </div>
+    <header class="header">
+        <div class="logo"><img src="https://filebase.com/static/9f34b404bff61b26270b051bdac53445/803de/superrare.png"
+                alt="">
         </div>
+        <nav class="nav">
+            <a href="#">Curation</a>
+            <a href="marketplace.html" style="color: black; text-decoration: none;">Marketplace</a>
+            <a href="#">Offline</a>
+            <a href="#">$RARE</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                <path fill="black" fill-rule="evenodd"
+                    d="M14.385 15.446a6.751 6.751 0 1 1 1.06-1.06l5.156 5.155a.75.75 0 1 1-1.06 1.06zM6.46 13.884a5.25 5.25 0 1 1 7.43-.005l-.005.005l-.005.004a5.25 5.25 0 0 1-7.42-.004"
+                    clip-rule="evenodd" />
+            </svg>
+        </nav>
 
-        
+        <div class="nav-right">
+
+            <div class="day-night">
+                <div class="partA"></div>
+                <div class="partB"></div>
+            </div>
+
+            <button class="btn connect">Connect Wallet</button>
+        </div>
     </header>
 
-    <main>
-        <div class="hero">
-            <img src="./www.superrare.com_.png" alt="" style="width: calc(100vw - 17px); height: 45rem;">
+    <section class="hero">
+        <img src="https://pixura.imgix.net/https%3A%2F%2Fimages.prismic.io%2Fsuperrare%2FaTt1yXNYClf9oFd0_16x9.png%3Fauto%3Dformat%2Ccompress%3Fauto%3Dcompress%2Cformat?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=1247&s=85249a00cdc6dcabf66a0c9119887299"
+            alt="">
+
+        <div class="hero-text" style="color: white;">
+            <h1>SuperRare x The Doomed DAO Official Merch
+                SuperRare</h1>
+            <h3>Time-limited drop . Until December 19</h3>
         </div>
 
-        <h1>Featured</h1>
-
-        <div class="cards">
-
-            <div class="nft-card">
-                <div class="image-container">
-                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fb6a141b393087f492c517001baf8adabb96fad7302ba78b6c6a90cd86dc5d9fb.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=328&s=8441add5bfd5c5912db0fdcc274323d2"
-                        alt="NFT Artwork">
-                </div>
-                <div class="details">
-                    <div class="title">un[title]d</div>
-                    <div class="artist">
-                        <img src="https://i.pravatar.cc/100?img=12" alt="artist">
-                        p1abypia
-                    </div>
-                    <div class="price">
-                        <button class="bid-btn">Place a Bid</button>
-                        Reserve <span>0.250Ξ ($888)</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="nft-card">
-                <div class="image-container">
-                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fb6a141b393087f492c517001baf8adabb96fad7302ba78b6c6a90cd86dc5d9fb.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=328&s=8441add5bfd5c5912db0fdcc274323d2"
-                        alt="NFT Artwork">
-                </div>
-                <div class="details">
-                    <div class="title">un[title]d</div>
-                    <div class="artist">
-                        <img src="https://i.pravatar.cc/100?img=12" alt="artist">
-                        p1abypia
-                    </div>
-                    <div class="price">
-                        <button class="bid-btn">Place a Bid</button>
-                        Reserve <span>0.250Ξ ($888)</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="nft-card">
-                <div class="image-container">
-                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fb6a141b393087f492c517001baf8adabb96fad7302ba78b6c6a90cd86dc5d9fb.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=328&s=8441add5bfd5c5912db0fdcc274323d2"
-                        alt="NFT Artwork">
-                </div>
-                <div class="details">
-                    <div class="title">un[title]d</div>
-                    <div class="artist">
-                        <img src="https://i.pravatar.cc/100?img=12" alt="artist">
-                        p1abypia
-                    </div>
-                    <div class="price">
-                        <button class="bid-btn">Place a Bid</button>
-                        Reserve <span>0.250Ξ ($888)</span>
-                    </div>
-                </div>
-            </div>
+        <div class="scrolls">
+            <div class="imgs"></div>
+            <div class="imgs"></div>
+            <div class="imgs"></div>
         </div>
+    </section>
 
-        <h1>Auctions</h1>
-
-        <div class="cards">
+    <section class="featured">
+        <h2>Featured</h2>
+        <div class="card-grid">
+            <div class="nft-card">
+                <a href="./artwork.html">
+                    <div class="image-container">
+                        <img src="https://pixura.imgix.net/https%3A%2F%2Farweave.net%2FmDsmfMujMdQSwswJU5KRdejlDL59H8Fjj-FevlpSArs?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=927&s=a2e026926f50418a68eadbac8e217634"
+                            alt="NFT Artwork">
+                    </div>
+                </a>
+                <div class="details">
+                    <div class="title">un[title]d</div>
+                    <div class="artist">
+                        <img src="https://i.pravatar.cc/100?img=12" alt="artist">
+                        p1abypia
+                    </div>
+                    <div class="price">
+                        <button class="bid-btn">Place a Bid</button>
+                        Reserve <span>0.250Ξ ($888)</span>
+                    </div>
+                </div>
+            </div>
 
             <div class="nft-card">
                 <div class="image-container">
-                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fb6a141b393087f492c517001baf8adabb96fad7302ba78b6c6a90cd86dc5d9fb.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=328&s=8441add5bfd5c5912db0fdcc274323d2"
+                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252F9fb49f50c3f9e9979f94dce52fccfd661c2d2ba2b51888f754ac119708b78a53.jpeg?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=689&s=19a52a02aa42a57ae14396de09e0a1bd"
                         alt="NFT Artwork">
                 </div>
                 <div class="details">
@@ -138,25 +97,7 @@
 
             <div class="nft-card">
                 <div class="image-container">
-                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fb6a141b393087f492c517001baf8adabb96fad7302ba78b6c6a90cd86dc5d9fb.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=328&s=8441add5bfd5c5912db0fdcc274323d2"
-                        alt="NFT Artwork">
-                </div>
-                <div class="details">
-                    <div class="title">un[title]d</div>
-                    <div class="artist">
-                        <img src="https://i.pravatar.cc/100?img=12" alt="artist">
-                        p1abypia
-                    </div>
-                    <div class="price">
-                        <button class="bid-btn">Place a Bid</button>
-                        Reserve <span>0.250Ξ ($888)</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="nft-card">
-                <div class="image-container">
-                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fb6a141b393087f492c517001baf8adabb96fad7302ba78b6c6a90cd86dc5d9fb.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=328&s=8441add5bfd5c5912db0fdcc274323d2"
+                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fe6227334eb40be4250f0fdb83dbf1c7a77962199327b933584499e44ccc16739.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=689&s=76307c75226bb4bc78dae2e7c9dab0a8"
                         alt="NFT Artwork">
                 </div>
                 <div class="details">
@@ -172,14 +113,14 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <h1>exmilenium by akc</h1>
-
-        <div class="cards">
-
+    <section class="auctions">
+        <h2>Auctions</h2>
+        <div class="card-grid">
             <div class="nft-card">
                 <div class="image-container">
-                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fb6a141b393087f492c517001baf8adabb96fad7302ba78b6c6a90cd86dc5d9fb.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=328&s=8441add5bfd5c5912db0fdcc274323d2"
+                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252F05148c1520d9141de268f4081964eeea2ad0e63600ff33367650404a7a575151.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=689&s=3ab558a4a764216c5179d8eac346dd0e"
                         alt="NFT Artwork">
                 </div>
                 <div class="details">
@@ -215,7 +156,7 @@
 
             <div class="nft-card">
                 <div class="image-container">
-                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fb6a141b393087f492c517001baf8adabb96fad7302ba78b6c6a90cd86dc5d9fb.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=328&s=8441add5bfd5c5912db0fdcc274323d2"
+                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252F5de8d0cfa44fb0c2094357ffd3896cf82467ec0a33d98e5106505d754ce0783e.jpeg?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=689&s=8f011fcebc27e8ffb0cefdab26cd829d"
                         alt="NFT Artwork">
                 </div>
                 <div class="details">
@@ -231,59 +172,131 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="subscribe-section">
-            <h2>Subscribe for weekly updates on art and culture</h2>
-            <div class="subscribe-box">
-                <input type="email" placeholder="Enter your email..." required>
-                <button><i class="fa-solid fa-arrow-right"></i></button>
+    <section class="myth">
+        <h2>The Myth</h2>
+        <div class="card-grid">
+            <div class="nft-card">
+                <div class="image-container">
+                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fbd6e01049f8cb094910146c6fd4204a74ad33fcb1f55c0e5a266a60ea15d3f7a.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=689&s=1049165aa528bd53aaeff4c3c0b40bcb"
+                        alt="NFT Artwork">
+                </div>
+                <div class="details">
+                    <div class="title">un[title]d</div>
+                    <div class="artist">
+                        <img src="https://i.pravatar.cc/100?img=12" alt="artist">
+                        p1abypia
+                    </div>
+                    <div class="price">
+                        <button class="bid-btn">Place a Bid</button>
+                        Reserve <span>0.250Ξ ($888)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nft-card">
+                <div class="image-container">
+                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252F6fb0afbd667683f9df16cc74ef0dad94285b06f80df44d58f00fb6039902c4e5.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=689&s=361bd420d437244309c170729301e45d"
+                        alt="NFT Artwork">
+                </div>
+                <div class="details">
+                    <div class="title">un[title]d</div>
+                    <div class="artist">
+                        <img src="https://i.pravatar.cc/100?img=12" alt="artist">
+                        p1abypia
+                    </div>
+                    <div class="price">
+                        <button class="bid-btn">Place a Bid</button>
+                        Reserve <span>0.250Ξ ($888)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nft-card">
+                <div class="image-container">
+                    <img src="https://pixura.imgix.net/https%3A%2F%2Fstorage.googleapis.com%2Fsr_prod_artworks_bucket%2Fasset%252Fe50b97979ab50a2d827ab1827f533aebdc80c220c3e9a387f07ba1470ab9eb48.png?ixlib=js-3.8.0&auto=format&quality=100&fit=max&cs=origin&w=689&s=5863752f597a9af7bbba0fd53b6e208f"
+                        alt="NFT Artwork">
+                </div>
+                <div class="details">
+                    <div class="title">un[title]d</div>
+                    <div class="artist">
+                        <img src="https://i.pravatar.cc/100?img=12" alt="artist">
+                        p1abypia
+                    </div>
+                    <div class="price">
+                        <button class="bid-btn">Place a Bid</button>
+                        Reserve <span>0.250Ξ ($888)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="subscribe-section">
+        <h2>Subscribe for weekly updates on art and culture</h2>
+        <div class="subscribe-box">
+            <input type="email" placeholder="Enter your email..." required>
+            <button><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <div class="img-last">
+        <img src="./last-img_homepage.png" alt="">
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-left">
+            <ul>
+                <li><i class="fa-solid fa-desktop"></i> Support</li>
+                <li><i class="fa-regular fa-file-lines"></i> Help Center</li>
+                <li><i class="fa-regular fa-gem"></i> Rare.xyz</li>
+            </ul>
+        </div>
+
+        <div class="footer-middle">
+            <div class="social-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path fill="currentColor"
+                        d="M9.294 6.928L14.357 1h-1.2L8.762 6.147L5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05zM7.651 8.852l-.538-.775L2.832 1.91h1.843l3.454 4.977l.538.775l4.491 6.47h-1.843z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M18.24.24H5.76A5.76 5.76 0 0 0 0 6v12a5.76 5.76 0 0 0 5.76 5.76h12.48A5.76 5.76 0 0 0 24 18V6A5.76 5.76 0 0 0 18.24.24m.816 17.166v.504a.49.49 0 0 1 .543.48v.568h-5.143v-.569A.49.49 0 0 1 15 17.91v-.504c0-.22.153-.402.358-.458l-.01-4.364c-.158-1.737-1.64-3.098-3.443-3.098s-3.285 1.361-3.443 3.098l-.01 4.358c.228.042.532.208.54.464v.504a.49.49 0 0 1 .543.48v.568H4.392v-.569a.49.49 0 0 1 .543-.479v-.504c0-.253.201-.454.454-.472V9.039h-.49l-.61-2.031H6.93V5.042h9.95v1.966h2.822l-.61 2.03h-.49v7.896c.252.017.453.22.453.472" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <g fill="none">
+                        <path stroke="currentColor" stroke-width="2"
+                            d="M3 11c0-3.771 0-5.657 1.172-6.828S7.229 3 11 3h2c3.771 0 5.657 0 6.828 1.172S21 7.229 21 11v2c0 3.771 0 5.657-1.172 6.828S16.771 21 13 21h-2c-3.771 0-5.657 0-6.828-1.172S3 16.771 3 13z" />
+                        <circle cx="16.5" cy="7.5" r="1.5" fill="currentColor" />
+                        <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2" />
+                    </g>
+                </svg>
             </div>
         </div>
 
-        <div class="img-last">
-            <img src="./last-img_homepage.png" alt="">
+        <div class="footer-right">
+            <ul>
+                <li>Terms of Service</li>
+                <li>Privacy Notice</li>
+                <li>Report Content</li>
+                <li>Cookie Preferences</li>
+            </ul>
+            <ul>
+                <li>Community Guidelines</li>
+                <li>Private Sales</li>
+                <li>$RARE Bridge</li>
+            </ul>
         </div>
 
-    </main>
+        <div class="footer-bottom">
+            <p>© 2025 SuperRare</p>
+        </div>
+    </footer>
 
 </body>
 
-<footer class="footer">
-    <div class="footer-left">
-        <ul>
-            <li><i class="fa-solid fa-desktop"></i> Support</li>
-            <li><i class="fa-regular fa-file-lines"></i> Help Center</li>
-            <li><i class="fa-regular fa-gem"></i> Rare.xyz</li>
-        </ul>
-    </div>
-
-    <div class="footer-middle">
-        <div class="social-icons">
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-instagram"></i>
-        </div>
-    </div>
-
-    <div class="footer-right">
-        <ul>
-            <li>Terms of Service</li>
-            <li>Privacy Notice</li>
-            <li>Report Content</li>
-            <li>Cookie Preferences</li>
-        </ul>
-        <ul>
-            <li>Community Guidelines</li>
-            <li>Private Sales</li>
-            <li>$RARE Bridge</li>
-        </ul>
-    </div>
-
-    <div class="footer-bottom">
-        <p>© 2025 SuperRare</p>
-    </div>
-</footer>
-
 </html>
-
-  

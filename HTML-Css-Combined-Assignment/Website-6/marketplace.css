@@ -211,6 +211,10 @@ body {
     width: 100%;
 }
 
+.image-container video {
+    width: 100%;
+}
+
 .details {
     padding: 15px;
 }
@@ -260,7 +264,7 @@ body {
 .cards {
     display: flex;
     margin: 5rem auto;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     gap: 3rem;
 }
